@@ -1,0 +1,32 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+// Colors
+$blue: #3fa7e7;
+$green: #1AAA8E;
+$indigo: #364BD7;
+$purple: #763DD8;
+$pink: #D91483;
+$red: #e7503f;
+$yellow: #e7a43f;
+
+// Theme Colors
+$theme-colors: (
+  "primary": $blue,
+  "success": $green,
+  "info": $light-blue,
+  "warning": $deep-orange,
+  "danger": $red,
+  "light": $grey-100,
+  "dark": $grey-800
+);
+
+$enable-rounded: false;
+$enable-responsive-font-sizes: true;
+$input-btn-padding-x: 2rem;
+$input-btn-padding-y: .5rem;
+$font-family-sans-serif: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
